@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 90%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav h1{
+    padding-left: 5rem;
+    cursor: default;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: rgba(82, 46, 241, 0.794) ;
+}
+
+.fav-food{
+    margin-top: 5rem;
+}
+.fav-food .text-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(82, 46, 241, 0.794);
+    font-family: sans-serif;
+}
+
+.fav-food ul li{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #303030;
+}
+
+.achievements{
+    margin-top: 100px;
+    list-style: none;
+}
+
+.achievements h2{
+    margin-left: 36rem;
+    font-size: 2.5rem;
+    color: rgba(82, 46, 241, 0.794);
+    font-family: sans-serif;
+}
+
+.achievements li{
+    padding-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    width: 25%;
+    height: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    margin-left: 33rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{
+    height: 10px;
+    float: left;
+    background: #2187e7;
+}
+
+.course{
+    width: 100%;
+}
+
+.capstone{
+    width: 20%;
+}
+
+.life{
+    width: 50%;
+}
+
+.about-me h2{
+    margin-top: 5rem;
+    text-align: center;
+    color: rgba(82, 46, 241, 0.794);
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.about-me p{
+    text-align: center;
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+footer .footer-image{
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33rem;
+}
+
+.copyrights{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+}
+    
+.copyrights span{
+    color: rgba(82, 46, 241, 0.794);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.copyrights .para{
+    padding-top: 0.5rem;
+}
